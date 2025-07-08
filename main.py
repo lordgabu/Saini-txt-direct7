@@ -52,27 +52,27 @@ api_url = "http://master-api-v3.vercel.app/"
 api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NSIsInRnX3VzZXJuYW1lIjoi4p61IFtvZmZsaW5lXSIsImlhdCI6MTczODY5MjA3N30.SXzZ1MZcvMp5sGESj0hBKSghhxJ3k1GTWoBUbivUe1I"
 token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
 adda_token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkcGthNTQ3MEBnbWFpbC5jb20iLCJhdWQiOiIxNzg2OTYwNSIsImlhdCI6MTc0NDk0NDQ2NCwiaXNzIjoiYWRkYTI0Ny5jb20iLCJuYW1lIjoiZHBrYSIsImVtYWlsIjoiZHBrYTU0NzBAZ21haWwuY29tIiwicGhvbmUiOiI3MzUyNDA0MTc2IiwidXNlcklkIjoiYWRkYS52MS41NzMyNmRmODVkZDkxZDRiNDkxN2FiZDExN2IwN2ZjOCIsImxvZ2luQXBpVmVyc2lvbiI6MX0.0QOuYFMkCEdVmwMVIPeETa6Kxr70zEslWOIAfC_ylhbku76nDcaBoNVvqN4HivWNwlyT0jkUKjWxZ8AbdorMLg"
-photologo = 'https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png' #https://envs.sh/GV0.jpg
-photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png' #https://envs.sh/GVi.jpg
-photocp = 'https://tinypic.host/images/2025/03/28/IMG_20250328_133126.jpg'
+photologo = 'https://tinypic.host/image/2ggbw' #https://envs.sh/GV0.jpg
+photoyt = 'https://tinypic.host/image/2ggbw' #https://envs.sh/GVi.jpg
+photocp = 'https://tinypic.host/image/2ggbw'
 photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/gabubots")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/gabubots"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/lordgabu/Saini-txt-direct7"),
         ],
     ]
 )
 
-# Image URLs for the random image feature
+# Image URLs generated random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
-    "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "https://tinypic.host/image/2ggbw",
+    "https://tinypic.host/image/2ggbw",
     # Add more image URLs as needed
 ]
 
@@ -331,7 +331,7 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"If you face any problem contact -  [𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎](https://t.me/saini_contact_bot)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [𝙂𝘼𝘽𝙐 𝘽𝙊𝙏𝙎](https://t.me/gabubots)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
@@ -354,7 +354,7 @@ async def start(bot, m: Message):
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
            f"🚀 You are not subscribed to any plan yet!\n\n"
-           f"<blockquote>💵 Monthly Plan: free</blockquote>\n\n"
+           f"<blockquote>💵 Monthly Plan: Paid</blockquote>\n\n"
            f"If you want to buy membership of the bot, feel free to contact the Bot Admin.\n", disable_web_page_preview=True, reply_markup=keyboard
     )
 
@@ -379,7 +379,7 @@ async def id_command(client, message: Message):
            f"• 🎓 Utkarsh Protection(Video + PDF)\n"
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
-           f"<b>💵 Monthly Plan: free</b>\n\n"
+           f"<b>💵 Monthly Plan: Paid</b>\n\n"
            f"If you want to buy membership of the bot, feel free to contact the Bot Admin.\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
     )  
 
